@@ -1,4 +1,4 @@
-package com.br.natanfc.filmesflix.api
+package com.br.natanfc.filmesflix.framework.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -6,8 +6,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 class MovieRestApiTask {
 
     companion object{
-        const val BASE_URL = "https://gabriel-rossi-dev.github.io/Film-Flix-Api/"
-        //TODO ( TALVEZ POSSA SER OUTRO URL = "https://gabriel-rossi-dev.github.io/")
+        const val BASE_URL = "https://gabriel-rossi-dev.github.io/"
+        //TODO(https://gabriel-rossi-dev.github.io/Film-Flix-Api/)
     }
 
     private fun movieProvider() : Retrofit = Retrofit.Builder()
